@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.upper-container {
+    width:50%;
+    height:10%;
+    margin:50px auto;
+    position: relative;
+   
+}
+
+.upper-container1 {
+    width:45%;
+    height:100%;
+    padding-top:50px;
+
+}
+
+#tasks {
+    font-weight:bold;
+    font-size:62px;
+    opacity:0.8;
+
+}
+
+#lists {
+    margin-left:-3px;
+    opacity:0.5;
+    font-size: 64px;
+    
+}
+
+.upper-container2 {
+    width:30%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    right:0px;
+    
+}
+
+#addlist {
+    position:absolute;
+    width:80%;
+    height:100%;
+    top:10px;
+    right:0px;
+    left:100px;
+    font-size:35px;
+    opacity:0.5;
+    padding-top:60px;
+    
+}
+
+.circle {
+    position:absolute;
+    top:65px;
+    left:50px;
+
+}
+.price-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 120px;
+}
+
+.card1 {
+  width: 230px;
+  height: 355px;
+  border:1.5px solid red;
+  position:relative;
+  left:120px;
+  border-radius:8px;
+  box-shadow: 5px 5px 10px gray;
+  
+}
+.card2 {
+  width: 230px;
+  height: 355px;
+  border:1.5px solid red;
+  position:relative;
+  left:20px;
+  border-radius:8px;
+  box-shadow: 5px 5px 10px gray;
+  
+}
+
+.card3 {
+  width: 230px;
+  height: 355px;
+  border:1.5px solid red;
+  position:relative;
+  right:80px;
+  border-radius:8px;
+  box-shadow: 5px 5px 10px gray;
+    
+}
+
+.div1 {
+    position:absolute;
+    top:30px;
+    right:0;
+    font-size: 25px;
+    width:85%;
+    text-align:left;
+    height:15%;
+    color:red;
+    border-bottom:1px solid black;
+    
+}
+.para {
+    position:absolute;
+    top:5px;
+    left:15px;
+}
+.div2 {
+    width:90%;
+    height:10%;
+    font-size:22px;
+    color:red;
+    text-align:right;
+    position:absolute;
+    top:35%;
+    font-weight: bold;
+    text-decoration: line-through 3.5px;
+
+}
+
+.div3 {
+    width:90%;
+    height:10%;
+    position:absolute;
+    top:52%;
+    text-align: right;
+    font-size:25px;
+    opacity: 0.8;
+
+}
+
+#check {
+    width:20px;
+    height:20px;
+    
+
+}
+
+.not-show {
+    filter: blur(6px);
+    -webkit-filter: blur(8px);
+}
+
+.pop-up {
+    width: 30%;
+    height: 30vh;
+    padding: 20px;
+    position: absolute;
+    top:240px;
+    left:537px;
+    color: red;
+    border: 1.5px solid red;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+}
+
+#add-new {
+    opacity: 0.7;
+    font-size: 22px;
+    text-align: center;
+}
+
+.pop-upbar {
+    width: 80%;
+    height: 25%;
+    margin-top: 25px;
+    border: 1.5px solid red;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.pop-up-button {
+    width: 22%;
+    height: 20%;
+    position: absolute;
+    left: 170px;
+    margin-top: 90px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container1{
+    position: relative;
+    padding-top: 0px;
+}
+
+.line1 {
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: 2px solid line-through gray;
+    position:absolute;
+    left:400px;
+    top:10px;
+
+}
+.line2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: 2px solid line-through gray;
+    position:absolute;
+    top:10px;
+    right:400px;
+
+}
+.heading1 {
+    font-size: 60px;
+    font-weight: bold;
+    opacity:0.8;
+    position: relative;
+    top:0px;
+    margin-left: 590px;
+}
+
+.container2{
+    position: relative;
+    
+    padding-top: 50px;
+    
+}
+.arrow{
+    position:relative;
+    left:703px;
+    opacity: 0.8;
+}
+#back {
+    position:relative;
+    left:720px;
+    bottom:7px;
+    font-size:30px;
+    opacity:0.6;
+}
+
+.card {
+  width: 450px;
+  height: 430px;
+  border:2px solid #EB6D60;
+  position:absolute;
+  top:230px;
+  left:540px;
+  border-radius:8px;
+  box-shadow: 5px 5px 15px gray;
+  
+}
+.heading2 {
+    font-size:30px;
+    position:absolute;
+    top:50px;
+    color:red;
+    
+}
+.section1 {
+    width:65%;
+    height:23%;
+    position:absolute;
+    right:0px;
+    border-bottom:1px solid black;
+
+}
+.section2 {
+    width:90%;
+    height:10%;
+    font-size:25px;
+    color:red;
+    position:absolute;
+    top:33%;
+    left:34%;
+    font-weight: bold;
+    text-decoration: line-through 3.5px;
+
+}
+
+.section3 {
+    width:90%;
+    height:10%;
+    position:absolute;
+    top:45%;
+    left:34%;
+    font-size:25px;
+    opacity: 0.8;
+
+}
+
+.section4 {
+    position:absolute;
+    right:18px;
+    bottom:20px;
+}
+@media(max-width:600px)
+{
+    .upper-container{
+        width:80% ;
+    }
+    #addlist
+    {
+        display: none;
+    }
+    .circle
+    {
+        right: 30px;
+    }
+    .upper-container1
+    {
+        width:80%;
+    }
+
+    
+
+
+  .div2
+  {
+    display: none;
+  }
+  .div3{
+    display: none;
+  }
+  .div1{
+    border: none;
+    color: grey;
+
+   }
+   .card1
+   {
+       left: 30px;
+       width: 90%;
+       height: 25vw;
+       border: 0px;
+   }
+   .card2
+   {
+       left: 30px;
+       width: 90%;
+       border: 0px;
+       height: 25vw;
+   }
+   .card3
+   {
+       left: 30px;
+       width: 90%;
+       border: 0px;
+       height: 25vw;
+   }
+   
+   .pop-up
+   {
+       left: 100px;
+       width: 70%;
+   }
+
+   .line1
+   {
+       display: none;
+   }
+   .line2
+   {
+       display: none;
+   }
+   .card
+   {
+       width: 90%;
+       left: 30px;
+   }
+   .arrow
+   {
+     left: 70px;
+     bottom: 160px;
+   }
+   #back
+   {
+       display: none;
+   }
+   .heading1
+   {
+       right: 350px;
+       
+   }
+  
+}
